@@ -17,3 +17,13 @@ This project is a minimal implementation of distributed file system similar to H
 ### Protobuf Generation Command
 
     * protoc -I<include-path> --java_out=<src-dir> <.proto file path>
+    
+### Inter Docker Communication
+
+   * If you are using dockers for nodes, [check this](https://goldmann.pl/blog/2014/01/21/connecting-docker-containers-on-multiple-hosts/) for inter docker Communication
+   
+### Future Scope
+
+   * Implement MapReduce on top of this HDFS.
+   * Make blocksize, replication factor configurable.
+   * Instead of using random approach for reading the block from the replicas, get the block from the nearest datanode.
