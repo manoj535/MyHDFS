@@ -6,7 +6,8 @@ This project is a minimal implementation of distributed file system similar to H
     * Uses Java RMI + Google protobuf for communication
     * Replication factor = 2 
     * Block size = 64K 
-    * NameNode & DataNodes maintains the information of block report to recover even after restart of machine
+    * NameNode & DataNodes maintains the information of block report to  
+      recover even after restart of machine
     * Supports 4 DataNodes running on different machines interconnected
 
 ### Running NameNode & DataNode
